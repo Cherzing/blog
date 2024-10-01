@@ -4,7 +4,7 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://mister-hope.github.io",
+  hostname: "https://cherzing.cn",
 
   author: {
     name: "Cherzing",
@@ -13,9 +13,9 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "https://cdn.jsdelivr.net/gh/czlifetime/img/logo.svg", //"https://theme-hope-assets.vuejs.press/logo.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "cherzing/blog",
 
   docsDir: "src",
 
@@ -84,12 +84,12 @@ export default hopeTheme({
       size: true,
     },
 
-    // markdownMath: {
+    markdownMath: {
     //   // 启用前安装 katex
-    //   type: "katex",
+      type: "katex",
     //   // 或者安装 mathjax-full
     //   type: "mathjax",
-    // },
+    },
 
     // 此处开启了很多功能用于演示，你应仅保留用到的功能。
     mdEnhance: {
@@ -122,18 +122,18 @@ export default hopeTheme({
       vPre: true,
 
       // 在启用之前安装 chart.js
-      // chart: true,
+      chart: true,
 
       // insert component easily
 
       // 在启用之前安装 echarts
-      // echarts: true,
+      echarts: true,
 
       // 在启用之前安装 flowchart.ts
       // flowchart: true,
 
       // gfm requires mathjax-full to provide tex support
-      // gfm: true,
+      gfm: true,
 
       // 在启用之前安装 mermaid
       // mermaid: true,

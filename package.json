@@ -16,5 +16,10 @@
     "vue": "^3.5.5",
     "vuepress": "2.0.0-rc.15",
     "vuepress-theme-hope": "2.0.0-rc.53"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.4",
+    "echarts": "^5.5.1",
+    "katex": "^0.16.11"
   }
 }

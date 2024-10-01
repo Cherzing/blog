@@ -16,6 +16,12 @@ export default sidebar({
       prefix: "posts/",
       children: "structure",
     },
+    {
+      text: "数学建模",
+      icon: "book",
+      prefix: "MathModel/",
+      children: "structure",
+    },
     "intro",
     {
       text: "幻灯片",

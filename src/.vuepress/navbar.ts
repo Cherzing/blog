@@ -9,12 +9,12 @@ export default navbar([
     prefix: "/posts/",
     children: [
       {
-        text: "苹果",
+        text: "前端",
         icon: "pen-to-square",
-        prefix: "apple/",
+        prefix: "front/",
         children: [
-          { text: "苹果1", icon: "pen-to-square", link: "1" },
-          { text: "苹果2", icon: "pen-to-square", link: "2" },
+          { text: "前端1", icon: "pen-to-square", link: "1" },
+          { text: "前端2", icon: "pen-to-square", link: "2" },
           "3",
           "4",
         ],
@@ -43,10 +43,5 @@ export default navbar([
       "tomato",
       "strawberry",
     ],
-  },
-  {
-    text: "V2 文档",
-    icon: "book",
-    link: "https://theme-hope.vuejs.press/zh/",
-  },
+  }
 ]);
