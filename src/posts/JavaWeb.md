@@ -1,8 +1,9 @@
 ---
 title: JavaWeb
-tags: Java
 data: 2023-9-9 14:30
 cover: https://cdn.jsdelivr.net/gh/czlifetime/img/javaweb.jpeg
+tag:
+  - Java
 ---
 
 # JavaWeb

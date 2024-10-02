@@ -1,8 +1,9 @@
 ---
 title: Java面向对象编程
-tags: Java
 data: 2023-7-31 17:50
 cover: https://cdn.jsdelivr.net/gh/czlifetime/img/Java_cover.jpg
+tag:
+  - Java
 ---
 
 ## 方法

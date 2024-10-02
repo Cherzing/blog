@@ -1,4 +1,14 @@
+---
+title: TOPSIS--基于理想解的排序技术
+tags: 数学建模
+data: 2024-8-8
+cover: https://cdn.jsdelivr.net/gh/czlifetime/img/f557269f0a7a85cb5bb24a48d1f2542d.jpeg
+---
+
+
+
 # TOPSIS--基于理想解的排序技术
+
 <h2 id="hwK2U">基本原理</h2>
 <font style="color:rgb(44, 44, 54);">TOPSIS的基本思想是确定每个备选方案相对于理想解和负理想解的接近程度。具体步骤如下：</font>
 

@@ -1,5 +1,9 @@
 ---
 title: JavaScript
+data: 2023-9-10 14:30
+cover: https://tse4-mm.cn.bing.net/th/id/OIP-C.ZZaV8f0-sI1l6dcdApuE6gHaEK
+tag:
+  - JavaScript
 ---
 
 JavaScript是可插入HTML 页面的编程代码，用来改进设计、验证表单、检测浏览器、创建cookies，以及更多的应用

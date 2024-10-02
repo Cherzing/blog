@@ -1,7 +1,8 @@
 ---
 title: I/O流
-tags: Java
 cover: https://cdn.jsdelivr.net/gh/czlifetime/img/Java.jpg
+tag:
+  - Java
 ---
 
 # I/O流

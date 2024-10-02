@@ -1,7 +1,7 @@
 ---
 title: JMeter
 date: 2023-09-29
-tags: 软件测试
+tag: 软件测试
 cover: https://cdn.jsdelivr.net/gh/czlifetime/img/logo.png
 ---
 

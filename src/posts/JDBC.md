@@ -1,8 +1,9 @@
 ---
 title: JDBC
-tags: Java
 data: 2023-9-9 10:40
 cover: https://cdn.jsdelivr.net/gh/czlifetime/img/Java.jpg
+tag:
+  - Java
 ---
 
 # JDBC

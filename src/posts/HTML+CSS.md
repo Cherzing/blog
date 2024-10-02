@@ -5,6 +5,8 @@ tags: 前端
 cover: https://www.studicore.hu/wp-content/uploads/2019/03/html_css.jpg
 category:
   - 前端
+tag:
+  - HTML
 ---
 
 ## HTML
