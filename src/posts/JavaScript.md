@@ -11,5 +11,5 @@ JavaScript插入HTML页面后，可由所有的浏览器执行
 
 脚本位置：
 
-+ 位于\\<script>\与\\</script>\标签中
-+ <body>和<head>中
++ 位于\<script>与\</script>标签中
++ \<body>和\<head>中

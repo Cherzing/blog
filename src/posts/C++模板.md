@@ -33,16 +33,16 @@ tag:
 
 函数模板作用：
 
-建立一个通用函数，其函数返回值类型和形参类型可以不具体制定，用一个</strong>虚拟的类型</strong>来代表。
+建立一个通用函数，其函数返回值类型和形参类型可以不具体制定，用一个<strong>虚拟的类型</strong>来代表。
 
-</strong>语法：</strong> 
+<strong>语法：</strong> 
 
 ```C++
 template<typename T>
 函数声明或定义
 ```
 
-</strong>解释：</strong>
+<strong>解释：</strong>
 
 template  ---  声明创建模板
 
@@ -50,7 +50,7 @@ typename  --- 表面其后面的符号是一种数据类型，可以用class代�
 
 T    ---   通用的数据类型，名称可以替换，通常为大写字母
 
-</strong>示例：</strong>
+<strong>示例：</strong>
 
 ```C++
 //交换整型函数
@@ -552,7 +552,7 @@ template<typename T>
 类
 ```
 
-</strong>解释：</strong>
+<strong>解释：</strong>
 
 template  ---  声明创建模板
 
@@ -562,7 +562,7 @@ T    ---   通用的数据类型，名称可以替换，通常为大写字母
 
 
 
-</strong>示例：</strong>
+<strong>示例：</strong>
 
 ```C++
 #include <string>
@@ -687,7 +687,7 @@ int main() {
 
 
 
-</strong>示例：</strong>
+<strong>示例：</strong>
 
 ```C++
 class Person1
@@ -1110,24 +1110,24 @@ STL大体分为六大组件，分别是:<strong>容器、算法、迭代器、�
 
 
 
-</strong>容器：</strong>置物之所也
+<strong>容器：</strong>置物之所也
 
-STL</strong>容器</strong>就是将运用</strong>最广泛的一些数据结构</strong>实现出来
+STL<strong>容器</strong>就是将运用<strong>最广泛的一些数据结构</strong>实现出来
 
 常用的数据结构：数组, 链表,树, 栈, 队列, 集合, 映射表 等
 
-这些容器分为</strong>序列式容器</strong>和</strong>关联式容器</strong>两种:
+这些容器分为<strong>序列式容器</strong>和<strong>关联式容器</strong>两种:
 
-​	</strong>序列式容器</strong>:强调值的排序，序列式容器中的每个元素均有固定的位置。
-​	</strong>关联式容器</strong>:二叉树结构，各元素之间没有严格的物理上的顺序关系
+​	<strong>序列式容器</strong>:强调值的排序，序列式容器中的每个元素均有固定的位置。
+​	<strong>关联式容器</strong>:二叉树结构，各元素之间没有严格的物理上的顺序关系
 
 
 
-</strong>算法：</strong>问题之解法也
+<strong>算法：</strong>问题之解法也
 
 有限的步骤，解决逻辑或数学上的问题，这一门学科我们叫做算法(Algorithms)
 
-算法分为:</strong>质变算法</strong>和</strong>非质变算法</strong>。
+算法分为:<strong>质变算法</strong>和<strong>非质变算法</strong>。
 
 质变算法：是指运算过程中会更改区间内的元素的内容。例如拷贝，替换，删除等等
 
@@ -1135,7 +1135,7 @@ STL</strong>容器</strong>就是将运用</strong>最广泛的一些数据结�
 
 
 
-</strong>迭代器：</strong>容器和算法之间粘合剂
+<strong>迭代器：</strong>容器和算法之间粘合剂
 
 提供一种方法，使之能够依序寻访某个容器所含的各个元素，而又无需暴露该容器的内部表示方式。
 
@@ -1738,7 +1738,7 @@ int main() {
 
 ### 1. vector基本概念
 
-</strong>功能：</strong>
+<strong>功能：</strong>
 
 * vector数据结构和<strong>数组非常相似</strong>，也称为<strong>单端数组</strong>
 
@@ -1750,7 +1750,7 @@ int main() {
 
 
 
-</strong>动态扩展：</strong>
+<strong>动态扩展：</strong>
 
 * 并不是在原空间之后续接新空间，而是找更大的内存空间，然后将原数据拷贝新空间，释放原空间
 
@@ -1760,13 +1760,13 @@ int main() {
 
 ### 2. vector构造函数
 
-</strong>功能描述：</strong>
+<strong>功能描述：</strong>
 
 * 创建vector容器
 
 
 
-</strong>函数原型：</strong>
+<strong>函数原型：</strong>
 
 * `vector<T> v; `               		     //采用模板实现类实现，默认构造函数
 * `vector(v.begin(), v.end());   `       //将v[begin(), end())区间中的元素拷贝给本身。

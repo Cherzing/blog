@@ -49,7 +49,7 @@ category:
 + h1~h6标签不能相互嵌套
 + \<p>标签中不能出现\<h1>~\<h6>标签、\<div>、\<p>
 
-​    
+
 
 ### 语义化标签
 
@@ -68,8 +68,6 @@ category:
   + 有利于 SEO (搜索引擎优化)
   + 方便设备解析 (如屏幕阅读器、盲人阅读器等)
 
-
-
 ### 块级元素与行内元素
 
  <strong>块级元素</strong>：独占一行
@@ -82,11 +80,11 @@ category:
 
 + \<div>
 
-<strong>行内元素</strong>：不占一行
+**行内元素**：不占一行
 
 + \<input>
 
-<mark>规则</mark>：
+**规则**：
 
 1. 块级元素 中能写 行内素和 块级元素 (简单记: 块级素中几乎什么都能写)
 
@@ -94,11 +92,11 @@ category:
 
 3. 一些特殊的规则:
 
-  + h1~h6 不能互相嵌套
-  + p 中不要写块级元素
-
-  我们以后还会学到一些特殊的规则，但不会很多。
-
+   + h1~h6 不能互相嵌套
+     
+   + p 中不要写块级元素
+     
+     我们以后还会学到一些特殊的规则，但不会很多。
 
 
 ### 文本标签
@@ -126,11 +124,10 @@ category:
 2. 尽量不同时修改图片的宽和高，可能会造成比例失调。
 3. 暂且认为 img 是行内元素(学到 CSS 时，会认识一个新的元素分类，目前咱们只知道: 块、行内)。
 4. alt 属性的作用:
-  + 搜索引擎通过 alt 属性，得知图片的内容。-- 最主要的作用
+
++ 搜索引擎通过 alt 属性，得知图片的内容 – 最主要的作用
   + 当图片无法展示时候，有些浏览器会呈现 alt 属性的值
   + 盲人阅读器会朗读 alt 属性的值
-
-
 
 ### 常见的图片格式
 
@@ -233,8 +230,6 @@ category:
    <a href=">刷新页面</a>
    ```
 
-   
-
 ### 列表
 
 #### 有序列表
@@ -247,8 +242,6 @@ category:
 </ol>
 ```
 
-
-
 #### 无序列表
 
 ```html
@@ -258,8 +251,6 @@ category:
         <li>列3</li>
     </ul>
 ```
-
-
 
 #### 自定义列表
 
@@ -395,7 +386,7 @@ category:
    <input type="radio" name = "sex" value = "famale">女
    ```
 
-   >  name:数据的名称<font color="red">注意：想要单选多个`radio`</font>的`name`属性值要保持一致
+   > name:数据的名称<font color="red">注意：想要单选多个`radio`</font>的`name`属性值要保持一致
    >
    > value:提交的数据值
    >
@@ -489,10 +480,6 @@ category:
 > 1. 在网页中嵌入广告
 > 2. 与超链接或表单的`target`配合，展示不同的内容
 
-
-
-
-
 ## CSS
 
 ### CSS简介
@@ -502,7 +489,7 @@ category:
 
 ### CSS编写位置
 
-####  行内样式
+#### 行内样式
 
 + 写在标签的`style`属性中
 
@@ -547,8 +534,8 @@ category:
 
      ```html
      h1{
-     	color:red;
-     	font-size: 40px;
+      color:red;
+      font-size: 40px;
      }
      ```
 
@@ -577,9 +564,7 @@ category:
   | -------- | ------------------------------------------------------------ | --------------------------------------------------------- | -------- | -------- |
   | 行内样式 | 优先级最高                                                   | 1. 结构与样式未分离<br>2. 代码结构混乱<br>3. 样式不能复用 | 低       | 当前标签 |
   | 内部样式 | 1. 样式可复用<br>2. 代码结构清晰                             | 1. 结构与样式未彻底分离<br>2. 样式不能多页面复用          | 一般     | 当前页面 |
-  | 外部样式 | 1. 样式可复用<br/>2. 代码结构清晰<br>3. 可触发浏览器的缓存机制<br>4. 结构与样式彻底分离 | 需要引入才能使用                                          | 最高     | 多个页面 |
-
-  
+  | 外部样式 | 1. 样式可复用<br>2. 代码结构清晰<br>3. 可触发浏览器的缓存机制<br>4. 结构与样式彻底分离 | 需要引入才能使用                                          | 最高     | 多个页面 |
 
 ### CSS语法规范
 
@@ -611,7 +596,7 @@ CSS语法由两部分构成：
 
   ```css
   * {
-  	属性名: 属性值
+   属性名: 属性值
   }
   ```
 
@@ -623,8 +608,6 @@ CSS语法由两部分构成：
       font-size: 40px;
   }
   ```
-
-  
 
 #### 元素选择器
 
@@ -675,8 +658,6 @@ CSS语法由两部分构成：
   }/*为选中的所有class值为answer的元素*/
   ```
 
-  
-
 #### `id`选择器
 
 + 根据元素的`id`属性值，来选中某个元素
@@ -704,8 +685,6 @@ CSS语法由两部分构成：
 + 一个元素只能拥有一个`id`属性，多个元素的`id`属性值不能相同
 
 + 一个元素可以同时拥有`id`与`class`属性
-
-
 
 ### CSS复合选择器
 
@@ -735,8 +714,6 @@ CSS语法由两部分构成：
   2. id 选择器、理论上可以作为交集的条件，但实际应用中几乎不用--因为没有意义
   3. 交集选择器中不可能出现两个元素选择器，因为一个元素，不可能即是p 元素又是 span 元素
   4. 用的最多的交集选择器是: 元素选择器配合类名选择器，例如: p.beauty 。
-
-
 
 #### 并集选择器
 
@@ -895,8 +872,6 @@ CSS语法由两部分构成：
   >
   > `!important`的权重，大于所有的样式
 
-
-
 ### CSS三大特性
 
 1. <strong>层叠性</strong>
@@ -989,8 +964,6 @@ CSS语法由两部分构成：
   }
   ```
 
-  
-
 #### 字体复合
 
 + 属性名：`font`,可以把上述字体合并成一个属性
@@ -1048,8 +1021,6 @@ CSS语法由两部分构成：
   }
   ```
 
-
-
 #### 文本水平对齐
 
 + 属性名：`text-align`
@@ -1077,8 +1048,6 @@ CSS语法由两部分构成：
   }
   ```
 
-
-
 #### 垂直对齐
 
 + 属性名：`vertical-align`
@@ -1088,8 +1057,6 @@ CSS语法由两部分构成：
   2. `top`：使元素的顶部与其梭子行的顶部对齐
   3. `middle`：使元素的中部与其父元素的基线加上父元素的字母x的一般对齐
   4. `bottom`:使元素的底部与其所在行的底部对齐
-
-
 
 #### 列表属性
 
@@ -1101,8 +1068,6 @@ CSS语法由两部分构成：
 | list-style-position | 设置列表符号的位置 | `inside`:在`li`的里面<br>`outside`:在`li`的外面              |
 | list-style-image    | 自定义列表符号     | `url`                                                        |
 | list-style          | 符合属性           | 没有数量、顺序的要求                                         |
-
-
 
 #### 表格属性
 
@@ -1133,15 +1098,11 @@ CSS语法由两部分构成：
 | `background-position` | 设置背景图位置   | 通过关键字设置位置：<br>水平：`left`、`center`、`right`<br>垂直：`top`、`center`、`bottom`<br>如果只写一个值，另一个方向的值去`center`<br><br>通过长度指定坐标位置：<br>以元素左上角，为坐标原点，设置图片左上角的位置。两个值，分别是`x`坐标和`y`坐标。<br>只写一个值，会被当做`x`坐标，`y`坐标取`center` |
 | `background`          | 符合属性         | 没有数量和顺序的要求                                         |
 
-
-
 ### 鼠标相关的属性
 
 | CSS属性名 | 功能               | 属性值                                                       |
 | --------- | ------------------ | ------------------------------------------------------------ |
 | `cursor`  | 设置鼠标光标的样式 | `pointer`<br>`move`<br>`text`<br>`crosshair`<br>`wait`<br>`help`<br> |
-
-
 
 ### 盒子模型
 
@@ -1191,15 +1152,15 @@ CSS语法由两部分构成：
 
 + 块元素
 
-  > 1. 主题结构标签:<html>、<body>
-  > 2. 排版标签：<h1>~<h6>、<hr>、<p>、<pre>、<div>
-  > 3. 列表标签：<ul>、<ol>、<li>、<dl>、<dt>、<dd>
-  > 4. 表格相关标签：<table>、<tbody>、<thead>、<tfoot>、<tr>、<caption>
+  > 1. 主题结构标签:\<html>、\<body>
+  > 2. 排版标签：\<h1>~\<h6>、\<hr>、\<p>、\<pre>、\<div>
+  > 3. 列表标签：\<ul>、\<ol>、\<li>、\<dl>、\<dt>、\<dd>
+  > 4. 表格相关标签：\<table>、\<tbody>、\<thead>、\<tfoot>、\<tr>、\<caption>
   > 5. \<form>与\<option>
 
 + 行内元素
 
-  > 1. 文本标签：\<br>、\<em>、\<strong>、<sup>、\<del>、\<button>
+  > 1. 文本标签：\<br>、\<em>、\<strong>、\<sup>、\<del>、\<button>
 
 + 行内块元素
 
@@ -1262,8 +1223,6 @@ CSS语法由两部分构成：
 3. `padding:10px 20px 30px`（上、左右、下）
 4. `padding:10px 20px 30px 40px`（上、右、下、左）
 
-
-
 ##### 盒子边框
 
 | CSS属性                                                      | 功能                                   | 属性值                                          |
@@ -1272,7 +1231,7 @@ CSS语法由两部分构成：
 | `border-width`                                               | 边框线宽度<br>复合了四个方向的边框宽度 | 长度默认为3px                                   |
 | `border-color`                                               | 边框颜色<br>复合了四个方向的边框颜色   | 默认为黑色                                      |
 | `border`                                                     | 复合属性                               | 没有顺序和数量的要求                            |
-| `border-left`<br>`border-left-style`<br>`border-left-width`<br>`border-left-color`<br><br>`border-right`<br/>`border-right-style`<br/>`border-right-width`<br/>`border-right-color`<br/><br/>`border-top`<br/>`border-top-style`<br/>`border-top-width`<br/>`border-top-color`<br/><br/>`border-bottom`<br/>`border-bottom-style`<br/>`border-bottom-width`<br/>`border-bottom-color`<br/> | 分别设置各个方向的边框                 | 同上                                            |
+| `border-left`<br>`border-left-style`<br>`border-left-width`<br>`border-left-color`<br><br>`border-right`<br>`border-right-style`<br>`border-right-width`<br>`border-right-color`<br><br>`border-top`<br>`border-top-style`<br>`border-top-width`<br>`border-top-color`<br><br>`border-bottom`<br>`border-bottom-style`<br>`border-bottom-width`<br>`border-bottom-color`<br> | 分别设置各个方向的边框                 | 同上                                            |
 
 ##### 盒子外边距
 
