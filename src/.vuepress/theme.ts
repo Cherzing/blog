@@ -37,7 +37,7 @@ export default hopeTheme({
       Email: "mailto:cherzing@qq.com",
       Gitee: "https://gitee.com/Cherzing",
       GitHub: "https://github.com/Cherzing",
-      Gitlab: "https://example.com",
+      Gitlab: "https://gitlab.com/Cherzing",
       BiliBili: "https://space.bilibili.com/1666092215",
       Gmail: "mailto:czlifetime@gmail.com",
       VuePressThemeHope: {
@@ -84,18 +84,12 @@ export default hopeTheme({
       size: true,
     },
 
-    markdownMath: {
-    //   // 启用前安装 katex
-      type: "katex",
-    //   // 或者安装 mathjax-full
-    //   type: "mathjax",
-    },
+    markdownMath: true,
 
     // 此处开启了很多功能用于演示，你应仅保留用到的功能。
     mdEnhance: {
       align: true,
       attrs: true,
-      codetabs: true,
       component: true,
       demo: true,
       include: true,
@@ -117,7 +111,6 @@ export default hopeTheme({
       ],
       sub: true,
       sup: true,
-      tabs: true,
       tasklist: true,
       vPre: true,
 

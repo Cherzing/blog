@@ -20,9 +20,9 @@ cover: https://cdn.jsdelivr.net/gh/czlifetime/img/f557269f0a7a85cb5bb24a48d1f254
 4. **<font style="color:rgb(44, 44, 54);">计算距离</font>**<font style="color:rgb(44, 44, 54);">：对于每个备选方案，计算其到理想解（PIS）和负理想解（NIS）的欧几里得距离或其它距离度量。</font>
 5. **<font style="color:rgb(44, 44, 54);">计算贴近度/相对贴近度</font>**<font style="color:rgb(44, 44, 54);">：TOPSIS通过比较一个备选方案到理想解的距离与到理想解和负理想解距离之和的比值来衡量其优劣。具体公式为：</font>
 
-$ 贴近度=\frac{𝐷_{NIS}}{𝐷_{PIS}+𝐷_{NIS}} $
+$$贴近度=\frac{𝐷_{NIS}}{𝐷_{PIS}+𝐷_{NIS}}$$
 
-<font style="color:rgb(44, 44, 54);">其中，</font>$ D_{PIS} $<font style="color:rgb(44, 44, 54);">是方案到理想解的距离，</font>$ P_{NIS} $<font style="color:rgb(44, 44, 54);">是方案到负理想解的距离。贴近度的值范围从0到1，值越接近1表示该方案越接近理想解，即越优。</font>
+其中，$D_{PIS}$是方案到理想解的距离，$P_{NIS}$是方案到负理想解的距离。贴近度的值范围从0到1，值越接近1表示该方案越接近理想解，即越优。
 
 6. **<font style="color:rgb(44, 44, 54);">排序与选择</font>**<font style="color:rgb(44, 44, 54);">：根据计算出的贴近度对所有备选方案进行排序，贴近度最高的方案被看作是最优选择。</font>
 
