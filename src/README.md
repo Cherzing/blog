@@ -2,6 +2,7 @@
 home: true
 layout: BlogHome
 icon: home
+bgImage: https://cdn.pixabay.com/photo/2023/06/01/05/58/ocean-8032698_1280.jpg
 title: 博客主页
 heroImage: https://tc.d3tt.com/images/FirbPeNHsMskGL5HXCZYzVuZJo0l.png
 heroText: Cherzing
