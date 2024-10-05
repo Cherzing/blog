@@ -1,7 +1,8 @@
 ---
 title: TOPSIS--基于理想解的排序技术
-tags: 数学建模
-data: 2024-8-8
+tag:
+  - 数学建模
+date: 2024-08-08
 cover: https://cdn.jsdelivr.net/gh/czlifetime/img/f557269f0a7a85cb5bb24a48d1f2542d.jpeg
 ---
 

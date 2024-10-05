@@ -1,6 +1,6 @@
 ---
 title: Java网络
-data: 2023-8-18 14:40
+date: 2023-08-18
 cover: https://cdn.jsdelivr.net/gh/czlifetime/img/Java.jpg
 tag:
   - Java

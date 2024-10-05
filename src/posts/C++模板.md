@@ -1,7 +1,7 @@
 ---
 title: C++模板
 tags: C++
-data: 2023-7-31 16:40
+date: 2023-07-31
 cover: https://cdn.jsdelivr.net/gh/czlifetime/img/C++.jpg
 tag:
   - C++

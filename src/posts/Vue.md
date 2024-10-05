@@ -1,5 +1,10 @@
 ---
 title: Vue
+cover: https://img-blog.csdnimg.cn/img_convert/7caf231136ae54b9960b1f8e2c1bd393.png
+date: 2024-01-01
+tag:
+  - 前端
+  - Vue
 category:
   - 前端
 ---

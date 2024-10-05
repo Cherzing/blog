@@ -1,7 +1,8 @@
 ---
 title: MySQL
-tags: SQL
-data: 2023-9-8 00:00
+tag: 
+  - SQL
+date: 2023-09-08
 cover: https://cdn.jsdelivr.net/gh/czlifetime/img/MySQL.png
 ---
 

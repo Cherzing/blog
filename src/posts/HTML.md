@@ -1,7 +1,7 @@
 ---
 title: HTML
 tags: HTML
-data: 2023-9-22 15:30
+date: 2023-09-22
 cover: https://cdn.jsdelivr.net/gh/czlifetime/img/html.png
 category:
   - 前端

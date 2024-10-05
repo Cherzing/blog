@@ -1,6 +1,7 @@
 ---
 title: Junit
 tag: 软件测试
+date: 2023-10-06
 cover: https://cdn.jsdelivr.net/gh/czlifetime/img/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95.jpg
 ---
 

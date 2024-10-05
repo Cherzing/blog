@@ -1,3 +1,16 @@
+---
+title: Spring
+date: 2024-01-25
+cover: https://cdn.jsdelivr.net/gh/czlifetime/img/image-20221209110043449.png
+tag:
+  - Java
+  - Spring
+---
+
+
+
+<!-- more -->
+
 # Spring6
 
 
@@ -4434,7 +4447,7 @@ AOP（Aspect Oriented Programming）->**面向切片编程**是一种设计思�
 切点通过 org.springframework.aop.Pointcut 接口进行描述，它使用类和方法作为连接点的查询条件。
 
 #### 5.3.3、作用
- 
+
 
 +  简化代码：把方法中固定位置的重复的代码**抽取**出来，让被抽取的方法更专注于自己的核心功能，提高内聚性。 
 +  代码增强：把特定的功能封装到切面类中，看哪里有需要，就往上套，被**套用**了切面逻辑的方法就被切面给增强了。 
@@ -4782,7 +4795,7 @@ public class CalculatorTest {
     - 切入点表达式中使用 int 和实际方法中 Integer 是不匹配的
 +  在方法返回值部分，如果想要明确指定一个返回值类型，那么必须同时写明权限修饰符 
     - 例如：execution(public int _.._Service.*(.., int))	正确  
-例如：execution(_ int _.._Service._(.., int))	错误
+    例如：execution(_ int _.._Service._(.., int))	错误
 
 
 

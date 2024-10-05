@@ -1,6 +1,6 @@
 ---
 title: JavaScript
-data: 2023-9-10 14:30
+date: 2023-09-10
 cover: https://tse4-mm.cn.bing.net/th/id/OIP-C.ZZaV8f0-sI1l6dcdApuE6gHaEK
 tag:
   - JavaScript

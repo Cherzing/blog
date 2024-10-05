@@ -1,3 +1,16 @@
+---
+title: SpringMVC
+date: 2024-01-23
+cover: https://cdn.jsdelivr.net/gh/czlifetime/img/image-20221209110043449.png
+tag:
+  - Java
+  - SpringMVC
+---
+
+
+
+<!-- more-->
+
 # 一、SpringMVC简介
 
 ---

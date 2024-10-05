@@ -1,6 +1,7 @@
 ---
 title: I/O流
 cover: https://cdn.jsdelivr.net/gh/czlifetime/img/Java.jpg
+date: 2023-06-01
 tag:
   - Java
 ---
