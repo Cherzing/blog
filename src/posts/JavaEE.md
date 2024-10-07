@@ -1,6 +1,6 @@
 ---
 title: JavaEE企业级开发实验1
-date: 2024-10-7
+date: 2024-10-07
 cover: https://mybatis.net.cn/Application/Home/View/Public/img/mybatis-logo.png
 tag:
   - JavaEE
