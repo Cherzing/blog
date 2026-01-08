@@ -1,6 +1,6 @@
 ---
 icon: circle-info
-cover: https://tc.d3tt.com/images/FtyMxmU0siAvhuGCNPmCo3-rF7h_.jpg
+cover: https://s3.bmp.ovh/imgs/2026/01/08/894cc45a336aae19.png
 ---
 
 

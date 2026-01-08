@@ -4,17 +4,17 @@ layout: BlogHome
 icon: home
 bgImage: https://cdn.pixabay.com/photo/2023/06/01/05/58/ocean-8032698_1280.jpg
 title: 博客主页
-heroImage: https://tc.d3tt.com/images/FirbPeNHsMskGL5HXCZYzVuZJo0l.png
+heroImage: https://s3.bmp.ovh/imgs/2026/01/08/b2ee8bf3ee855d2e.jpg
 heroText: Cherzing
 heroFullScreen: true
 tagline: Now is good.
 projects:
-  - icon: https://cdn.jsdelivr.net/gh/czlifetime/img/yuque.svg
+  - icon: https://mdn.alipayobjects.com/huamei_0prmtq/afts/img/A*vMxOQIh4KBMAAAAAAAAAAAAADvuFAQ/original
     name: 语雀
     desc: 我的语雀
     link: https://www.yuque.com/cherzing/
 
-  - icon: music
+  - icon: https://pic.616pic.com/ys_bnew_img/00/40/41/F2qQa5nz5L.jpg
     name: 音乐
     desc: 我喜欢的音乐
     link: https://music.cherzing.cn/
